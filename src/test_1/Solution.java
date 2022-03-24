@@ -15,13 +15,13 @@ public class Solution
 		A=A/N; //최대공약수로 두수를 나눠서 몫구하는과정
 		B=B/N;
 		
-		int M = A*B*N; //최소공배수는 두수의 최대공약수 * 위에서 구한 
+		int M = A*B*N; //최소공배수는 최대공약수 * 두수의 몫
 		
 		System.out.println(N);
 		System.out.println(M);
 	}
 	
-	public int eucd(int a,int b)
+	public int eucd(int a,int b) //유클리드 호제법 (A>B)
 	{
 		int r = a%b;
 		if(r==0)
