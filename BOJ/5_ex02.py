@@ -25,3 +25,4 @@ for i in range(n-1):
 
 print("1")
 
+# BOJ 25643
