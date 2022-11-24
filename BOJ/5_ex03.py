@@ -15,3 +15,5 @@ if check:
     print("Yes")
 else:
     print("No")
+    
+#BOJ 23253
